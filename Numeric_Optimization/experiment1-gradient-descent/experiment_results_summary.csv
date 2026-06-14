@@ -1,0 +1,67 @@
+Problem,Start Point,Algorithm,Strategy,Iter,Time(s),Final f,Final |g|,Converged
+Modified Rosenbrock (2D),[-1.2  1. ],Steepest Descent,Exact,12,0.0048,-0.9527,4.38e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],Steepest Descent,Inexact,21,0.0059,0.8091,6.11e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],Newton,Exact,5,0.0015,-0.9527,4.02e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],Newton,Inexact,6,0.0034,-0.9527,6.02e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],BFGS,Exact,6,0.003,-0.9527,4.74e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],BFGS,Inexact,8,0.0013,0.8091,3.05e-09,True
+Modified Rosenbrock (2D),[-1.2  1. ],CG-PRP,Exact,8,0.0031,-0.9527,2.42e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],CG-PRP,Inexact,15,0.0042,0.8091,8.33e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],CG-FP,Exact,384,0.1363,-1.8506,7.41e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],CG-FP,Inexact,30,0.0075,0.8091,8.75e-07,True
+Modified Rosenbrock (2D),[-1.2  1. ],Trust Region,TR,244,0.0129,4.3378,1.68e-07,True
+Modified Rosenbrock (2D),[1.2 0.5],Steepest Descent,Exact,30,0.0094,-2.6404,9.78e-08,True
+Modified Rosenbrock (2D),[1.2 0.5],Steepest Descent,Inexact,28,0.0066,-0.9527,9.81e-07,True
+Modified Rosenbrock (2D),[1.2 0.5],Newton,Exact,999,0.575,-0.7183,1.26e-06,False
+Modified Rosenbrock (2D),[1.2 0.5],Newton,Inexact,5,0.0004,1.0431,4.60e-07,True
+Modified Rosenbrock (2D),[1.2 0.5],BFGS,Exact,8,0.0022,0.8091,1.94e-07,True
+Modified Rosenbrock (2D),[1.2 0.5],BFGS,Inexact,8,0.0009,0.8091,1.46e-08,True
+Modified Rosenbrock (2D),[1.2 0.5],CG-PRP,Exact,999,0.5429,0.8091,1.29e-06,False
+Modified Rosenbrock (2D),[1.2 0.5],CG-PRP,Inexact,11,0.0035,0.8091,7.45e-07,True
+Modified Rosenbrock (2D),[1.2 0.5],CG-FP,Exact,34,0.0123,-0.9527,8.87e-07,True
+Modified Rosenbrock (2D),[1.2 0.5],CG-FP,Inexact,13,0.0037,0.8091,6.76e-07,True
+Modified Rosenbrock (2D),[1.2 0.5],Trust Region,TR,999,0.0524,2.4158,1.17e-06,False
+Modified Rosenbrock (2D),[-0.5 -0.5],Steepest Descent,Exact,40,0.0115,0.0000,5.53e-07,True
+Modified Rosenbrock (2D),[-0.5 -0.5],Steepest Descent,Inexact,15,0.004,-4.5055,1.81e-07,True
+Modified Rosenbrock (2D),[-0.5 -0.5],Newton,Exact,6,0.0016,-1.8506,4.12e-09,True
+Modified Rosenbrock (2D),[-0.5 -0.5],Newton,Inexact,7,0.0007,-1.8506,1.07e-11,True
+Modified Rosenbrock (2D),[-0.5 -0.5],BFGS,Exact,5,0.0012,0.0000,1.52e-09,True
+Modified Rosenbrock (2D),[-0.5 -0.5],BFGS,Inexact,9,0.0011,0.0000,3.90e-07,True
+Modified Rosenbrock (2D),[-0.5 -0.5],CG-PRP,Exact,10,0.004,-4.5055,8.61e-07,True
+Modified Rosenbrock (2D),[-0.5 -0.5],CG-PRP,Inexact,12,0.0034,-4.5055,1.64e-09,True
+Modified Rosenbrock (2D),[-0.5 -0.5],CG-FP,Exact,682,0.2559,-4.5055,5.53e-07,True
+Modified Rosenbrock (2D),[-0.5 -0.5],CG-FP,Inexact,14,0.0036,0.0000,5.86e-07,True
+Modified Rosenbrock (2D),[-0.5 -0.5],Trust Region,TR,232,0.0135,2.4158,3.32e-08,True
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],Steepest Descent,Exact,999,0.2737,0.0149,1.46e-01,False
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],Steepest Descent,Inexact,999,0.2508,0.0362,3.19e-01,False
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],Newton,Exact,11,0.0028,3.7014,1.56e-07,True
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],Newton,Inexact,9,0.0009,3.7014,9.44e-11,True
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],BFGS,Exact,27,0.0068,0.0000,1.50e-08,True
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],BFGS,Inexact,47,0.0042,0.0000,3.77e-07,True
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],CG-PRP,Exact,999,0.3359,0.0000,1.76e-06,False
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],CG-PRP,Inexact,79,0.018,0.0000,5.68e-07,True
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],CG-FP,Exact,999,0.3209,0.0000,3.36e-06,False
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],CG-FP,Inexact,999,0.4163,0.0465,3.95e+00,False
+Extended Rosenbrock (4D),[-1.2  1.  -0.8  0.6],Trust Region,TR,999,0.0566,130.0445,2.96e+02,False
+Extended Rosenbrock (4D),[0. 0. 0. 0.],Steepest Descent,Exact,999,0.2479,0.0069,2.37e-01,False
+Extended Rosenbrock (4D),[0. 0. 0. 0.],Steepest Descent,Inexact,999,0.2319,0.0238,3.62e-01,False
+Extended Rosenbrock (4D),[0. 0. 0. 0.],Newton,Exact,12,0.0027,0.0000,9.15e-08,True
+Extended Rosenbrock (4D),[0. 0. 0. 0.],Newton,Inexact,16,0.0015,0.0000,9.22e-08,True
+Extended Rosenbrock (4D),[0. 0. 0. 0.],BFGS,Exact,27,0.0067,0.0000,4.60e-07,True
+Extended Rosenbrock (4D),[0. 0. 0. 0.],BFGS,Inexact,34,0.0029,0.0000,2.34e-07,True
+Extended Rosenbrock (4D),[0. 0. 0. 0.],CG-PRP,Exact,969,0.3099,0.0000,9.99e-07,True
+Extended Rosenbrock (4D),[0. 0. 0. 0.],CG-PRP,Inexact,54,0.0117,0.0000,3.12e-07,True
+Extended Rosenbrock (4D),[0. 0. 0. 0.],CG-FP,Exact,999,0.2839,0.0000,9.02e-06,False
+Extended Rosenbrock (4D),[0. 0. 0. 0.],CG-FP,Inexact,999,0.2967,0.0000,2.82e-06,False
+Extended Rosenbrock (4D),[0. 0. 0. 0.],Trust Region,TR,100,0.0058,0.0000,8.56e-09,True
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],Steepest Descent,Exact,999,0.2476,0.0346,2.62e-01,False
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],Steepest Descent,Inexact,999,0.2382,0.0380,3.08e-01,False
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],Newton,Exact,17,0.0039,0.0000,2.78e-08,True
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],Newton,Inexact,22,0.0018,0.0000,3.95e-08,True
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],BFGS,Exact,32,0.0079,0.0000,8.25e-08,True
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],BFGS,Inexact,24,0.0024,0.0000,8.35e-08,True
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],CG-PRP,Exact,372,0.1053,0.0000,9.04e-07,True
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],CG-PRP,Inexact,792,0.2157,0.0000,1.00e-06,True
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],CG-FP,Exact,999,0.2861,0.9184,4.87e+01,False
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],CG-FP,Inexact,999,0.3917,0.0070,1.01e+00,False
+Extended Rosenbrock (4D),[-1. -1. -1. -1.],Trust Region,TR,999,0.0573,620.6691,1.16e+03,False

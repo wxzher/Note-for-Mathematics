@@ -1,0 +1,66 @@
+\documentclass{article}
+
+% ==========================================
+% 1. 核心中文支持 (必须)
+% ==========================================
+\usepackage[UTF8]{ctex} 
+
+% ==========================================
+% 2. 代码高亮设置
+% ==========================================
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\lstset{
+    language=Python,               % 语言
+    basicstyle=\ttfamily\small,    % 字体设置
+    keywordstyle=\color{blue}\bfseries, % 关键字
+    commentstyle=\color{green!50!black}, % 注释 (中文会在这里显示)
+    stringstyle=\color{red},       % 字符串
+    numbers=left,                  % 行号在左侧
+    numberstyle=\tiny,
+    stepnumber=1,
+    frame=single,                  % 单线框
+    breaklines=true,               % 自动换行
+    % ----------------------------------------------------
+    % 解决中文乱码的关键设置：
+    extendedchars=false,           % 避免跨页时中文乱码
+    keepspaces=true,               % 保持空格
+    inputencoding=utf8,            % 明确指定输入编码
+    % ----------------------------------------------------
+    captionpos=b                   % 标题在底部
+}
+
+\begin{document}
+
+\section{正文}
+参见附录中的代码。
+
+% ==========================================
+% 附录
+% ==========================================
+\newpage
+\appendix
+\section{核心代码}
+
+% -----------------------------------------------------------
+% 注意事项：
+% 1. caption={...} 里的文字如果有下划线 _，必须写成 \_
+% 2. 后面 {} 里的文件路径，建议保持原样 (listings 会自动处理)
+% -----------------------------------------------------------
+
+% 1. 主程序
+\subsection{运行脚本}
+\lstinputlisting[language=Python, caption={主程序源码 (run.py)}]{codes/run.py}
+
+% 2. 求解器
+\subsection{优化求解器}
+\lstinputlisting[language=Python, caption={求解器源码 (solver.py)}]{codes/solver.py}
+
+% 3. 绘图工具 (注意 caption 里的下划线转义)
+\subsection{绘图工具}
+\lstinputlisting[language=Python, caption={绘图代码 (plots\_util.py)}]{codes/plots_util.py}
+
+\end{document}
