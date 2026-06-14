@@ -24,8 +24,7 @@ Covers optimization theory and algorithms: optimality conditions, unconstrained/
 │   ├── ch14-quadratic-programming.pdf              # Ch.14 Quadratic Programming
 │   ├── one-dimensional-search-without-optimization.pdf
 │   ├── mean-value-theorem-taylor-cauchy.pdf
-│   └── textbook-optimization-theory-and-algorithms-2nd-edition.pdf  # Chen Baolin textbook
-│
+
 ├── homework/                                       # Homework assignments (PDF)
 │   ├── hw01.pdf
 │   ├── hw02.pdf
