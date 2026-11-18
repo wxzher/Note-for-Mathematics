@@ -8,7 +8,7 @@ Graduate-level mathematics course notes, homework, and experiments — **Advance
 
 ## Advanced Mathematics（高等数学）
 
-7 chapters of calculus, following 同济大学《高等数学》.
+12 chapters of calculus, following 同济大学《高等数学》.
 
 | Chapter | Content |
 |:-------:|---------|
@@ -19,6 +19,11 @@ Graduate-level mathematics course notes, homework, and experiments — **Advance
 | 05 | Definite Integrals — Riemann sums, fundamental theorem, improper integrals |
 | 06 | Applications of Definite Integrals — area, volume, arc length, surface of revolution |
 | 07 | Differential Equations — separable, linear, homogeneous, higher-order ODEs |
+| 08 | Spatial Analytic Geometry & Vector Algebra — vectors, planes, lines, surfaces, space curves |
+| 09 | Multivariable Differential Calculus — partial derivatives, total differentials, extrema and applications |
+| 10 | Double Integrals — Cartesian and polar coordinates, change of order, applications |
+| 11 | Line & Surface Integrals — scalar/vector integrals, Green, Gauss and Stokes formulas |
+| 12 | Infinite Series — numerical series, power series, Fourier series |
 
 **Supplementary**: Bernoulli's inequality.  
 **Practice**: 100 limits problems, 100 derivative problems, 100 integral problems, formula handbooks (derivatives & integrals), comprehensive review guide.
@@ -41,7 +46,7 @@ Graduate-level mathematics course notes, homework, and experiments — **Advance
 
 ## Probability & Statistics（概率论与数理统计）
 
-5 chapters covering probability theory and basic statistics.
+Two sets of course notes covering probability theory and mathematical statistics, plus a comprehensive review note.
 
 | Chapter | Content |
 |:-------:|---------|
@@ -49,9 +54,15 @@ Graduate-level mathematics course notes, homework, and experiments — **Advance
 | 02 | Random Variables & Distributions — discrete/continuous distributions, PDF, CDF, expectation |
 | 03 | Multidimensional Random Variables — joint/marginal/conditional distributions, covariance |
 | 04 | Numerical Characteristics — expectation, variance, covariance, correlation coefficient |
-| 05 | Law of Large Numbers — Chebyshev, Bernoulli, central limit theorem |
+| 05–06 | Limit Theorems & Mathematical Statistics — laws of large numbers, central limit theorem, sampling distributions |
+| 07 | Parameter Estimation — point estimation, maximum likelihood, interval estimation |
+| 08 | Hypothesis Testing — tests for means, variances and distributions |
 
-**Supplementary**: common discrete & continuous distributions reference, chi-square test.
+**Note collections**:
+
+- **Sheng Zhou / Zhejiang University edition**: Chapters 01–08, random-events handouts, common discrete and continuous distributions reference, and chi-square test
+- **Lian Baosheng edition**: 4 chapters covering random events and conditional probability, random variables and distributions, expectation and variance, statistics and parameter estimation
+- **Comprehensive review**: consolidated probability and statistics review notes
 
 ---
 
