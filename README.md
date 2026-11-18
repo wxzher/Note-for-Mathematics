@@ -1,5 +1,7 @@
 # Mathematics Notes
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 Graduate-level mathematics course notes, homework, and experiments — **Advanced Mathematics**, **Linear Algebra**, **Probability & Statistics**, **Operations Research**, and **Numerical Optimization**.
 
 **Student**: Xiaozhen Wu (巫小珍) — 2024201030025
